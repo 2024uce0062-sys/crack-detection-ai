@@ -1,10 +1,11 @@
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8s.pt")
 
 model.train(
     data="data.yaml",
-    epochs=15,
-    imgsz=416,
-    batch=4
+    epochs=100,
+    imgsz=640,
+    device=0,
+    workers=0
 )

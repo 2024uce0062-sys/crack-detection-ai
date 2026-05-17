@@ -1,8 +1,8 @@
 
-bridge_crack - v1 2026-05-14 10:00pm
+crack detection project - v4 2026-05-15 5:51pm
 ==============================
 
-This dataset was exported via roboflow.com on May 14, 2026 at 4:32 PM GMT
+This dataset was exported via roboflow.com on May 15, 2026 at 12:21 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,10 +17,11 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1177 images.
-Crack are annotated in YOLOv8 format.
+The dataset includes 1049 images.
+Crack-detection-project are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
 
 No image augmentation techniques were applied.
 

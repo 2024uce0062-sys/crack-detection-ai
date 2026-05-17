@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("runs/detect/train-4/weights/best.pt")
+model = YOLO("runs/detect/train-9/weights/best.pt")
 
 results = model.predict(
     source=input("Enter image name: "),
